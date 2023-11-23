@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><th>自我介紹表格</th></title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 3px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th colspan="4"> about 112306041吳育來</th>
+    </tr>
+    <tr>
+        <td rowspan="3">
+            <img src="id12908051-shutterstock_258841592.jpg" alt="Your Photo" style="width: 100%;">
+        </td>
+        <td colspan="4">
+            <label for="name">Name：</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="gender">Gender：</label>
+            <select id="gender" name="gender">
+                <option value="male">男性</option>
+                <option value="female">女性</option>
+                <option value="female">其他</option>
+            </select>
+        </td>
+        
+        
+        
+
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <label for="country">County:</label>
+            <input type="checkbox" id="skill1" name="skill1">
+            <label for="skill1">Taipei</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Tainan</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Taichung</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Taoyuan</label>
+        </td>
+        <td colspan="2">
+            <label for="birthdate">Birthday:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <label for="email">Email：</label>
+            <input type="email" id="email" name="email">
+        </td>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <label for="interestTitle">Hobby：</label>
+        </td>
+        <td>
+            <!-- 右邊的勾選項目 -->
+            <input type="checkbox" id="interest1" name="interest1">
+            <label for="interest1">Swimmng</label>
+            <input type="checkbox" id="interest2" name="interest2">
+            <label for="interest2">Volleyball</label>
+            <input type="checkbox" id="interest2" name="interest2">
+            <label for="interest2">Movie</label>
+            <input type="checkbox" id="interest2" name="interest2">
+            <label for="interest2">Game</label>
+            <input type="checkbox" id="interest2" name="interest2">
+            <label for="interest2">sleep</label>
+        </td>
+        
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <label for="skillTitle">Skill：</label>
+        </td>
+        <td>
+            <!-- 右邊的勾選項目 -->
+            <input type="checkbox" id="skill1" name="skill1">
+            <label for="skill1">html</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">java</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">python</label>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Microsoft Office</label><br>
+            <input type="checkbox" id="skill2" name="skill2">
+            <label for="skill2">Premiere</label>
+        </td>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <label for="otherTitle">Say something </label>
+        </td>
+        <td>
+            <!-- 右邊的輸入欄位 -->
+            <textarea id="other" name="other" rows="4" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <button type="submit">提交</button>
+            <button type="reset">重設</button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
